@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit post</title>
+    <link rel="stylesheet" href="/blog_platform/src/css/index.css">
+    <link rel="stylesheet" href="/blog_platform/src/css/compose.css">
+    
+</head>
+<body>
+     <nav>
+        <div class="logo"><a href="home.html">myBlog</a></div>
+        <div class="nav-items">
+            <ul>
+                <li> <a href="home.html"> Home</a></li>
+             
+                <li> <a href="admin.html">Dashboard</a></li>
+            
+                    <li> <a href="profile.html"> My profile</a></li>
+                 
+                <li> <a href="login.html"> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="comp-title-container">
+            <h1 class="title">Edit Post</h1>
+        </div>
+        <div class="post-textarea">
+            <form action="#" method="post">
+            <p class="post-title">
+                <input type="text" placeholder="Title" name="postTitle" value="">
+            </p>
+            <p class="post-content">
+                <textarea cols="30" rows="20" name="postBody"></textarea>
+            </p>
+                <input type="file" class="custom-file-input" name="image">
+            </p>
+            <p class="submit-button">
+                <input type="submit" value="update">
+                <input type="reset" value="Discard">
+            </p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

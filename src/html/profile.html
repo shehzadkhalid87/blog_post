@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="/blog_platform/src/css/index.css" />
+    <link rel="stylesheet" href="/blog_platform/src/css/profile.css" />
+    <script
+      src="https://kit.fontawesome.com/eabac940d1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">myBlog</div>
+      <div class="nav-items">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">My profile</a></li>
+          <li><a href="login.html">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="profile-container">
+        <div class="profile-info-container">
+          <div class="dp" tabindex="0">
+            <img
+              src="/blog_platform/src/images/user.jpg"
+              alt="Profile Picture"
+            />
+          </div>
+
+          <div class="about">
+            <p class="username">shehzad</p>
+            <p class="bio">this is a short bio about me.</p>
+            <p class="web-link">
+              <a href="http://google.com">
+                <i class="fa-solid fa-link"></i> LinkedIn
+              </a>
+            </p>
+          </div>
+
+          <hr />
+
+          <div class="stats">
+            <div>
+              <p>Posts</p>
+              <p id="pdisplay">10</p>
+            </div>
+            <div>
+              <p>Likes</p>
+              <p id="ldisplay">100</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-container">
+          <h1>Contacts</h1>
+          <div class="mail-phone">
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:shehzadkhalid04@gmail.com"
+                >shehzadkhalid04@gmail.com</a
+              >
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +1234567890</p>
+          </div>
+
+          <div class="socials">
+            <a href="http://www.facebook.com/username"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="http://www.instagram.com/username"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="http://www.twitter.com/username"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="http://wa.me/+911234567890"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+
+          <div class="edit-profile-container">
+            <a href="/editprofile/username">
+              <i class="fa-solid fa-pencil"></i> Edit Profile
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="posts-container">
+        <div class="recent-posts-container">
+          <h1>Recent Posts</h1>
+          <div class="recent-posts">
+            <div class="recent-post-box">
+              <a href="/posts/post-id" class="link-card">
+                <div class="img-container">
+                  <div>
+                    <img
+                      src="/blog_platform/Src/images/newspaper-background-concept.jpg"
+                    />
+                  </div>
+                </div>
+
+                <p class="days">2 days ago</p>
+                <h2 title="Post Title">Hello</h2>
+                <p class="post-desc">
+                  Short description or intro of the post goes here.
+                </p>
+
+                <div class="post-footer">
+                  <p>25 <i class="fa-sharp fa-solid fa-heart"></i></p>
+                  <button>Read More</button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url("/blog_platform/src/");
+  background-size: cover;
+  background-position: cover;
+  display: flex;
+  opacity: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.login-form {
+  width: 100%;
+  max-width: 460px;
+  height: 45vh;
+  background-color: rgba(237, 239, 239, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(29, 29, 29, 0.1);
+}
+
+.login-form h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: white;
+}
+.form-group input:focus {
+  outline: none;
+  border-color: #fbfbfb;
+}
+.forgot-password {
+  position: absolute;
+  left: 10px;
+  top: 140px;
+  font-weight: 200;
+  font-size: 14px;
+  color: #312cca;
+  text-decoration: none;
+}
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a32fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 12px;
+}
+.login-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+}
+.login-btn:hover {
+  background-color: #2500f7;
+}
+.signup-prompt {
+  text-align: center;
+  color: #656262;
+  font-size: 14px;
+  margin-top: 45px;
+  padding: 15px;
+}
+.signup-prompt a {
+  color: rgb(65, 65, 248);
+  text-decoration: none;
+}
+.signup-prompt a:hover {
+  text-decoration: underline;
+  color: #2500f7;
+}

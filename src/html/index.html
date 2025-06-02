@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/blog_platform/src/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><a href="index.html">myBlog</a></div>
+      <div class="search">
+        <form action="">
+          <input type="text" id="search" placeholder="Search articles" />
+          <button type="reset" class="reset-btn" id="reset-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </form>
+        <div class="results" id="searchDiv"></div>
+      </div>
+      <div class="nav-items">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">My Profile</a></li>
+          <li><a href="login.html">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="pop-posts-container">
+        <h1>
+          Popular Articles
+          <a href="compose.html">
+            <button>
+              <i class="fa-sharp fa-solid fa-pen"></i>&nbsp;Compose
+            </button>
+          </a>
+        </h1>
+
+        <div class="pop-posts">
+          <div class="post-box">
+            <img src="/blog_platform/src/images/tm1.jpg" alt="" />
+            <div class="middle">
+              <a href="/posts/sample-id">Read More</a>
+            </div>
+            <h2>Sample Popular Post Title</h2>
+            <p>Sample content for a popular post.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="recent-posts-container">
+        <h1>Recent Articles</h1>
+        <div class="recent-posts">
+          <div class="recent-post-box">
+            <a href="/posts/sample-id" class="link-card">
+              <div class="img-container">
+                <div>
+                  <img src="/blog_platform/src/images/tm2.jpg" alt="" />
+                </div>
+              </div>
+              <p class="days">1 day ago</p>
+              <h2 title="Sample Recent Post Title">Sample Recent Post Title</h2>
+              <p class="post-desc">Sample content for a recent post.</p>
+              <div class="post-footer">
+                <p>Author Name</p>
+                <button>Read More</button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
